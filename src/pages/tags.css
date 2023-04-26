@@ -1,0 +1,164 @@
+.tagsbtn {
+    color: white;
+    background-color: #00073d;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    border: none;
+}
+
+.tagsbtn :hover {
+    color: white;
+    background-color: #00073d !important;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    border: none;
+}
+
+.maindash1 ul.nav.nav-tabs button {
+    background-color: #00073d;
+    color: #fff;
+}
+
+.maindash1 .nav-tabs li:nth-child(2) {
+    margin: 0 10px !important;
+}
+
+.maindash1 .nav-tabs li:nth-child(4) {
+    margin: 0 10px !important;
+}
+
+.maindash1 .nav-tabs .nav-link.active,
+.maindash1 .nav-tabs .nav-item.show .nav-link {
+    color: #ffffff !important;
+    background-color: #232854 !important;
+}
+
+.maindash1 table.tabledash.table {
+    border-radius: 5px;
+    box-shadow: 0 0 3px #816e6e;
+}
+
+.maindash1 thead,
+.maindash1 .tblbdy,
+.maindash1 tfoot,
+.maindash1 tr,
+.maindash1 td,
+.maindash1 th {
+    width: 100%;
+    padding: 4px 8px;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.maindash1 .dashtab {
+    padding: 10px 0;
+}
+
+.maindash1 .table> :not(:first-child) {
+    border-top: 0 !important;
+}
+
+.hdv {
+    background-color: #ccc;
+}
+
+.maindash1 {
+    padding: 0 20px;
+}
+
+.tbltg th {
+    font-size: 15px;
+}
+
+.tbltg td {
+    font-size: 12px;
+}
+
+.remove-btn {
+    border: none;
+    background-color: red;
+    padding: 5px 10px;
+
+}
+
+.remove-btn i {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    width: 70vh;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-field {
+    flex: 2;
+}
+
+.output {
+    margin-left: 3rem;
+    flex: 1;
+}
+
+.form-field label,
+h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(84, 84, 84);
+}
+
+input {
+    height: 35px;
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+input:focus {
+    border: 1px solid rgb(0, 208, 255);
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-division {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0.5rem 0;
+    width: 100%;
+}
+
+button {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.first-division button {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: rgb(0, 208, 255);
+    border: 1px solid rgb(0, 208, 255);
+}
+
+.second-division button {
+    color: red;
+    border: 1px solid red;
+}
